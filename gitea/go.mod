@@ -1,4 +1,4 @@
-module github.com/copia-automation/gitea-go-sdk-fork
+module github.com/copia-automation/gitea-go-sdk-fork/gitea
 
 go 1.12
 
