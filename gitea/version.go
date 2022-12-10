@@ -44,6 +44,7 @@ func (c *Client) CheckServerVersionConstraint(constraint string) error {
 
 // predefined versions only have to be parsed by library once
 var (
+	version0_12_0, _ = version.NewVersion("0.12.0")
 	version1_10_0, _ = version.NewVersion("1.10.0")
 	version1_11_0, _ = version.NewVersion("1.11.0")
 	version1_12_0, _ = version.NewVersion("1.12.0")
